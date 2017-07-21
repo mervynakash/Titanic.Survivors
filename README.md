@@ -48,6 +48,6 @@ This dataset is actually a competition in https://www.kaggle.com, a worldwide on
 
 If you're new to Data Science then Titanic dataset is where you should begin.
 
-Currently my rank in the competition is 3669. I hope to improve as I learn new things in R such as randomforest, clustering etc.
+Currently my rank in the competition is 3669. I hope to improve this rank as I practise more in R.
 
 Cheers and Happy Coding.
