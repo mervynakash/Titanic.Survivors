@@ -11,6 +11,7 @@ The project contains 5 files: The main code file (Titanic.R), Training file (tra
 Titanic.R : It contains the whole code required to analyse the data given in train.csv file. The coding has been done in R Programming Language as expressed above. The main objective in this program is to create a Predictive Model which will help us to know which people were able to survive and which were not.
 
 train.csv : The training set should be used to build a machine learning model. This file also has a column "Survived" which gives us the data to know which passengers survived. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. 
+
 Some of the data columns are:
 pclass: A proxy for socio-economic status (SES) 1st = Upper; 2nd = Middle; 3rd = Lower
 age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
