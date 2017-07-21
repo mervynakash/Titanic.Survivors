@@ -8,7 +8,11 @@ In this project the main theme is to complete the analysis of what sorts of peop
 
 The project contains 5 files: The main code file (Titanic.R), Training file (train.csv), Testing file (test.csv), Survivors file (gender_submission.csv) and the Solutions file (solution.csv). 
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Titanic.R : It contains the whole code required to analyse the data given in train.csv file. The coding has been done in R Programming Language as expressed above. The main objective in this program is to create a Predictive Model which will help us to know which people were able to survive and which were not.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 train.csv : The training set should be used to build a machine learning model. This file also has a column "Survived" which gives us the data to know which passengers survived. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. 
 
@@ -24,11 +28,19 @@ parch: The dataset defines family relations in this way...: (Parent = mother, fa
 
 embarked: Port of Embarkment
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 test.csv : The test set should be used to see how well the model performs on unseen data. For the test set, there is no ground truth for each passenger.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 gender_submission.csv : This file contains the solution for the test.csv data. The solution to whether the people in test.csv survived or not can be checked in gender_submission.csv file.
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 solution.csv : After completing the model and predicting the test.csv dataset, the solution to that prediction is saved in this file.
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Well that's it about introduction.
 
