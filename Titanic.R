@@ -201,11 +201,11 @@ auc(new.test$Survived, predict.random)
 
 
 # Applying the model in the test data.
-predict <- predict(model2, newdata = test, type = "response")
-predict <- ifelse(predict > 0.5, 1, 0)
+predict.model <- predict(model2, newdata = test, type = "response")
+predict.model <- ifelse(predict.model > 0.5, 1, 0)
 
 # Saving the predicted the values in another file.
-solution <- data.frame(PassengerID = test$PassengerId, Survived = predict)
+solution <- data.frame(PassengerID = test$PassengerId, Survived = predict.model)
 write.csv(solution, file = "solution.csv", row.names = FALSE)
 
 
