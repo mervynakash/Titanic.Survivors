@@ -44,8 +44,10 @@ solution.csv : After completing the model and predicting the test.csv dataset, t
 
 Well that's it about introduction.
 
-This dataset is actually a competition in https://www.kaggle.com, a worldwide online Data Scientist competition hub. It is said that if you're new to Data Science then Titanic dataset is where you start.
+This dataset is actually a competition in https://www.kaggle.com, a worldwide online Data Science competition hub. 
 
-Currently my rank in the competition is 3669. I hope to improve as I learn new things in R.
+If you're new to Data Science then Titanic dataset is where you should begin.
+
+Currently my rank in the competition is 3669. I hope to improve as I learn new things in R such as randomforest, clustering etc.
 
 Cheers and Happy Coding.
