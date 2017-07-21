@@ -4,7 +4,7 @@ The sinking of the RMS Titanic is one of the most infamous shipwrecks in history
 
 One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.  
 
-In this project the main theme is to complete the analysis of what sorts of people were likely to survive. This project has been done in R Programming using packages such as dplyr, stringr, ROCR, Metrics. 
+In this project the main theme is to complete the analysis of people most likely to survive the incident. This project has been done in R Programming using packages such as dplyr, stringr, ROCR, and Metrics. 
 
 The project contains 5 files: The main code file (Titanic.R), Training file (train.csv), Testing file (test.csv), Survivors file (gender_submission.csv) and the Solutions file (solution.csv). 
 
