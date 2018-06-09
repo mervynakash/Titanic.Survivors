@@ -10,10 +10,25 @@ The project contains 5 files: The main code file (Titanic.R), Training file (tra
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Titanic.R : It contains the whole code required to analyse the data given in train.csv file. The coding has been done in R Programming Language as expressed above. The main objective in this program is to create a Predictive Model which will help us to know which people were able to survive and which were not.
+titanicCLean.R - This R code contains the cleaning part of the data. I have combined the train.csv and test.csv to impute the missing values and outliers.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+titanicLogit.R - Implimenting the logistic regression on the cleaned data from titanicClean.R
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+titanicDT.R - Implimenting the Decision Tree on the cleaned data from titanicClean.R
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+titanicRandomForest.R - Implimenting the Random Forest on the cleaned data from titanicClean.R
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+titanicMARSpline.R - Implimenting the MARSpline (Multivariate Adaptive Regression Spline) on the cleaned data from titanicClean.R. I have created the model based on 3 pruning techniques - Forward, Backward and Cross-Validation. 
+
+----------------------------------------------------------------------------------------------------------------------------------------
 train.csv : The training set should be used to build a machine learning model. This file also has a column "Survived" which gives us the data to know which passengers survived. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. 
 
 Some of the data columns are:
@@ -51,3 +66,6 @@ If you're new to Data Science then Titanic dataset is where you should begin.
 Currently my rank in the competition is 3669. I hope to improve this rank as I practise more in R.
 
 Cheers and Happy Coding.
+
+*EDIT* (09/06/2018)
+I applied MARSpline - Forward Pruning to get an accuracy of 79.9% and updated my rank to 1773 as of now. 
